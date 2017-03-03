@@ -1,0 +1,31 @@
+html
+	head
+		link(rel="stylesheet", type="text/css", href="fonts/stylesheet.css")
+		link(rel="stylesheet", type="text/css", href="css/main.css")
+	body
+		#full_container
+			#loader.loaded
+				.bg
+				.logo
+			#main
+				.menu
+					.menu_slider
+						
+						each persona in ppl
+							a.menu_item(href="#", data-ppl=persona)
+								h1=persona.word
+								.info_container
+									.bg
+									h2 #{persona.name}
+									h3 #{persona.job}
+		
+		script(type="text/javascript" src="js/vendor/require.min.js")
+		script.
+			//- require(['js/require.config.js'], function(este){
+			//- 	Common();
+			//- });
+			require(['js/Common.js'], function(este){
+				console.log(este);
+				Common();
+				var common = new Common();
+			});

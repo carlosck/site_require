@@ -1,0 +1,15 @@
+{
+  "name": "sitew",
+  "version": "0.0.1",
+  "main": "",
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "gsap": "1.12.1",
+    "handlebars": "~4.0.5",
+    "hammerjs": "^2.0.8",
+    "jquery-hammerjs": "^2.0.0",
+    "requirejs": "^2.3.3",
+    "requirejs-plugins": "^1.0.3"
+  }
+  
+}

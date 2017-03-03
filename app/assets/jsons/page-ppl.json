@@ -1,0 +1,43 @@
+{
+	"ppl":
+		[
+			{
+				"name":"Juan Lopez",
+				"job":"front End",
+				"word":"Pasión"
+			},
+			{
+				"name":"Roberto Licea",
+				"job":"video director",
+				"word":"Post"
+			},
+			{
+				"name":"Jesus Barajas",
+				"job" :"interactive director",
+				"word":"Genialidad"
+			},
+			{
+				"name":"Raul Uranga",
+				"job" :"Tech leader",
+				"word":"Morelos"
+			},
+			{
+				"name":"Sebastian Mariscal",
+				"job" :"Animation director",
+				"word":"Outcast"
+			},
+			{
+				"name":"Rosy del Rio",
+				"job" :"Producer",
+				"word":"Empoderada"
+			},
+			{
+				"name":"Alexandro Briones",
+				"job" :"Producer",
+				"word":"Regio"
+			}
+
+		
+		]
+	
+}

@@ -1,0 +1,10 @@
+@mixin animation_custom($name,$duration,$delay, $fill:null)
+{
+	animation-name: $name;
+	animation-duration: $duration;
+	animation-delay: $delay;
+	@if length($fill) != null {
+        animation-fill-mode: forwards;
+    }	
+}
+	

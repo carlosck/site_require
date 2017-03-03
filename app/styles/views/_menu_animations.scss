@@ -1,0 +1,67 @@
+#main{
+	.menu{
+		h1{
+			transition-property: all;
+			transition-duration: 250ms;
+		}
+		.menu_item.selected{
+			h2,h3
+			{
+				opacity: 1;				
+			}
+		}
+		.info_container{
+			transition-property: all;
+			transition-duration: 250ms;
+			opacity: 1;
+			.bg{
+				width: 0%;
+				transition-property: all;
+				transition-duration: 250ms;
+			}
+			h2,h3
+			{
+				opacity: 0;
+				transition-property: all;
+				transition-duration: 250ms;				
+			}
+			h2
+			{				
+				transition-delay: 250ms;
+			}
+			h3
+			{				
+				transition-delay: 350ms;
+			}
+		}
+		.menu_item:hover
+		{	
+			h1{
+								
+				font-size: 120px;
+				color: gray;
+				top: 0;
+				
+			}
+			.info_container{
+				width: 355px;
+				display: block;
+				opacity: 1;				
+				.bg{
+					width: 100%;
+					
+				}
+				h2{
+					font-size: 11px;
+					opacity: 1;
+				}
+				h3{
+					font-family: $regular;
+					font-size: 11px;				
+					opacity: 1;
+				}
+			}
+				
+		}
+	}
+}
